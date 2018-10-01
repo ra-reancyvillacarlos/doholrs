@@ -1,0 +1,113 @@
+ @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,200,300);
+ body {
+  font: 16px/26px 'Roboto', Arial, Tahoma, sans-serif;}
+  
+  .Gm4th {
+    position: relative;
+    display: -ms-flexbox;
+}
+
+     .help-text > a {
+        color: #666;
+  text-decoration: none; 
+      }
+
+  .help-text >a:hover {
+    color: #4FDA8C; }
+
+.form-wrapss{
+  background-color: #fff;
+  width: 100%;
+  margin: 3em auto;
+  box-shadow: 0px 1px 8px #BEBEBE;
+  -webkit-box-shadow: 0px 1px 8px #BEBEBE;
+  -moz-box-shadow: 0px 1px 8px #BEBEBE; 
+	border-radius: 5px;
+
+}
+  .form-wrapss .tabss {
+    overflow: hidden; }
+    .form-wrapss .tabss h3 {
+      float: left;
+      width: 50%; }
+      .form-wrapss .tabss h3 a {
+        padding: 0.5em 0;
+        text-align: center;
+        font-weight: 400;
+        background-color: #e6e7e8;
+        display: block;
+        color: #666; }
+        .form-wrapss .tabss h3 a.active {
+          background-color: #fff; }
+  .form-wrapss .tabss-content {
+    padding: 1.5em; }
+    .form-wrapss .tabss-content div[id$="tab-content"] {
+      display: none; }
+    .form-wrapss .tabss-content .active {
+      display: block !important; }
+  .form-wrapss form .input {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    color: inherit;
+    font-family: inherit;
+    padding: .8em 0 10px .8em;
+    border: 1px solid #CFCFCF;
+    outline: 0;
+    display: inline-block;
+    /*margin: 0 0 .8em 0;*/
+    padding-right: 2em;
+    width: 100%;  font-size: 14px; }
+  .form-wrapss form .button {
+    width: 100%;
+    padding: .8em 0 10px .8em;
+    background-color: #28A55F;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase; }
+    .form-wrapss form .button:hover {
+      background-color: #4FDA8C; }
+  .form-wrapss form .checkbox {
+    visibility: hidden;
+    padding: 20px;
+    margin: .5em 0 1.5em; }
+    .form-wrapss form .checkbox:checked + label:after {
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+      filter: alpha(opacity=100);
+      opacity: 1; }
+  .form-wrapss form label[for] {
+    position: relative;
+    padding-left: 20px;
+    cursor: pointer; }
+    .form-wrapss form label[for]:before {
+      content: '';
+      position: absolute;
+      border: 1px solid #CFCFCF;
+      width: 17px;
+      height: 17px;
+      top: 0px;
+      left: -14px; }
+    .form-wrapss form label[for]:after {
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+      filter: alpha(opacity=0);
+      opacity: 0;
+      content: '';
+      position: absolute;
+      width: 9px;
+      height: 5px;
+      background-color: transparent;
+      top: 4px;
+      left: -10px;
+      border: 3px solid #28A55F;
+      border-top: none;
+      border-right: none;
+      -webkit-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      transform: rotate(-45deg); }
+  .form-wrapss.help-text {
+    margin-top: .6em; }
+    .form-wrapss .help-text p {
+      text-align: center;
+      font-size: 14px; }

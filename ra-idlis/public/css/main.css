@@ -1,0 +1,100 @@
+		  @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,200,300);
+body{
+  font: 16px/26px 'Roboto', Arial, Tahoma, sans-serif;
+  color: #212529;
+}
+.back{
+  background: linear-gradient(to bottom left, #228B22, #84bd82);padding: 5px 5px 5px 5px;
+}
+.fixed-bottom{
+  background:transparent;border-radius: 5px 5px 0 0
+}
+footer{
+  background: linear-gradient(to bottom left,#228B22, #84bd82);padding:1% 1% 1% 1%;
+}
+.img{
+    height: 95px;padding: 8px 8px 8px 0px;width: auto;float: left;
+}
+
+ .img2{
+  padding: 8px 8px 8px 0px;height: 95px;width: auto;float: left;
+  display: none;
+}
+ .img3{
+  display: none;
+  padding: 8px 8px 8px 0px;height: 95px;width: auto;float: left;
+}
+.m-0{
+  color: #fff;font-size: 15px;
+
+}
+.republic{
+    font-size: 0.765625rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding:  10px;
+}
+.republic > p{
+  margin: 0;
+}
+.slogan{
+  width: 400px;float:right;
+}
+
+@media only screen and (max-width: 360px){
+  .slogan{
+    float:none;
+  }
+}
+@media only screen and (max-height: 600px) and (max-height: 500px ) and (max-height: 421px ) {
+   div .img {
+       width: auto;
+    }
+}
+@media only screen and (max-width: 770px){
+  .img3{
+    display: none;
+  }
+}
+@media only screen and (max-width: 470px ) {
+  .img{
+    margin-left: 28%;
+  }
+   .republic {
+    margin: auto;
+    text-align: center;
+  }
+     .img3 {
+    display: none;
+  }
+  .img2{
+    display: block;
+  }
+  .imgcenter{
+    width: 100%;
+    overflow: auto;
+  }
+}
+
+@media only screen and (max-width: 460px){
+  .img {
+  margin-left: 27%;
+}
+}
+@media only screen and (max-width: 450px){
+  .img {
+  margin-left: 26%;
+}
+}
+@media only screen and (max-width: 440px){
+  .img {
+  margin-left: 25%;
+}
+}
+
+@media only screen and (max-width: 360px){
+  .img {
+  margin-left: 24%;
+}
+}
+
